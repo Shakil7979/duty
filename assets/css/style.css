@@ -1,4 +1,15 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap'); 
+
+@font-face {
+    font-family: 'Crunold';
+    src: url('Crunold-Regular.woff2') format('woff2'),
+        url('Crunold-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 html{
 	font-size: 62.5%;
@@ -22,7 +33,35 @@ ul li a,a{
 /*======================  Start Page  ======================*/
 
 
+.banner_area{
+	background: url(../images/banner_bg.png) no-repeat scroll center center / 100%;
+	height: 1205px;
+}
 
+.logo img {
+	width: 197px;
+}
+
+.header_social ul li a img {
+	width: 54px;
+}
+
+.header_social ul li a img:hover{
+	opacity: 0.53;
+}
+
+.header_social ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header_area {
+	padding: 15px 0;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
 
 
 
@@ -30,3 +69,7 @@ ul li a,a{
 /*======================  End Page  ======================*/
 
 
+/* 
+font-family: "Blinker", sans-serif;
+font-family: 'Crunold';
+ */
